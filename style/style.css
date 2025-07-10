@@ -6,6 +6,11 @@
 body{
     max-width:1440px;
 }
+header{
+    height:600px;
+     background-image:url('../Assets/Hero-bg.png');
+     background-size:cover;
+}
 .inter-font{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -19,8 +24,8 @@ body{
   font-optical-sizing: auto;
   font-style: normal;
   font-weight:bold;
-  font-size:65px;
-  margin-bottom:20px;
+  font-size:60px;
+  margin-bottom:37px;
 }
 
 .nav-container{
@@ -34,11 +39,15 @@ align-items:center;
 
 }
 .button-style{
-    color:white ;
     background-color:#4E47FF;
     padding:10px 20px;
-    border-radius:5px;
+    border-radius:10px;
     border:none;
+   
+}
+button a {
+    text-decoration:none;
+    color:white;
 }
 .banner-section{
     margin-top:140px;
