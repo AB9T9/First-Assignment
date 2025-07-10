@@ -3,6 +3,9 @@
     margin:0px;
     padding:0px;
 }
+body{
+    max-width:1440px;
+}
 .inter-font{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
