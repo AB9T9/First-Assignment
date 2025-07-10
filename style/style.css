@@ -5,6 +5,7 @@
 }
 body{
     max-width:1440px;
+    background-color:#F2EDED;
 }
 header{
     height:600px;
@@ -127,4 +128,56 @@ align-items:center;
     font-optical-sizing: auto;
     font-style: normal;
     color:rgba(0, 0, 0, 0.553);
+}
+.about-user-info{
+    display:flex;
+    align-items:center;
+    gap:10px;
+  
+}
+.user-section{
+    max-width:1100px;
+    margin:30px auto;
+    background-color:#F2EDED;
+}
+.user-container{
+    margin:35px 0px;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+}
+.user-feedback-container{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+    background-color:white;
+    border-radius:14px;
+    width:250px;
+    height:200px;
+    justify-content:space-evenly;
+
+}
+.about-user-info img{
+    height:40px;
+    width:40px;
+    border-radius:50%;
+}
+.feedback-title-single{
+  font-size:35px;
+ font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-align:center;
+  margin:15px 0px;
+  padding:10px;
+}
+.name{
+    font-weight:bold;
+    color:rgba(0, 0, 0, 0.728);
+}
+.date{
+    color:rgba(0, 0, 0, 0.418);
+}
+.feedback-title{
+    font-size:20px;
 }
