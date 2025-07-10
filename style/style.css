@@ -48,8 +48,11 @@ align-items:center;
    
 }
 .btn-primary {
-    text-decoration:none;
-    color:white;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-decoration:none;
+color:white;
 }
 .banner-section{
     margin-top:140px;
@@ -180,4 +183,22 @@ align-items:center;
 }
 .feedback-title{
     font-size:20px;
+}
+.overview-container{
+    max-width:1100px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    margin:80px auto;
+    background-color:white;
+    align-items:center;
+    
+}
+.overview-container img{
+    width:840px;
+    border-radius:48px;
+    margin-top:10px;
+}
+.web-button{
+    margin:15px 0px;
 }
