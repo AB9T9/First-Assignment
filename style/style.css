@@ -152,12 +152,13 @@ color:white;
 .user-feedback-container{
     display:flex;
     flex-direction:column;
-    gap:20px;
+    gap:30px;
     background-color:white;
     border-radius:14px;
-    width:250px;
+    width:200px;
     height:200px;
     justify-content:space-evenly;
+    padding:10px;
 
 }
 .about-user-info img{
@@ -195,7 +196,7 @@ color:white;
     
 }
 .overview-container img{
-    width:840px;
+    width:740px;
     margin-top:10px;
     padding:30px 0px;
     border-radius:50px;
@@ -246,4 +247,33 @@ input[type="submit"]{
     border:none;
     margin-top:8px;
     margin-left:20px;
+}
+footer{
+    width:1100px;
+    margin:20px auto;
+    text-align:center;
+    background-color:white;
+    padding:50px 0px;
+}
+nav ul li{
+    list-style:none;
+}
+ul li a,.footer-para{
+    text-decoration:none;
+    color:rgba(0, 0, 0, 0.582);
+}
+nav ul{
+    display:flex;
+    justify-content:center;
+    align-items:cener;
+    gap:30px;
+    margin-top:20px;
+}
+.footer-logo{
+    font-size:100px;
+    color:#4E47FF;
+    font-weight:bold;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
