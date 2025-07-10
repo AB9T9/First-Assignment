@@ -15,9 +15,9 @@ header{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-  color:#4E47FF;
   font-size:34px;
   font-weight:bold;
+  color:#4E47FF;
 }
 .raleway-banner {
   font-family: "Raleway", sans-serif;
@@ -92,4 +92,39 @@ align-items:center;
 .action{
     width:40%;
    
+}
+.about-user{
+    max-width:1100px;
+    background-color:#4d47ff34;
+    text-align:center;
+    margin:60px auto;
+    padding:50px 0px;
+    border-radius:40px;
+    
+}
+.users-track{
+    display:flex;
+    justify-content:space-evenly;
+    
+}
+.count{
+    font-size:80px;
+    color:#4E47FF;
+    font-weight:bold;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.user-title{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size:38px;
+  margin-bottom:40px;
+}
+.count-describtion{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color:rgba(0, 0, 0, 0.553);
 }
