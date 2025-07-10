@@ -277,3 +277,13 @@ nav ul{
     font-optical-sizing: auto;
     font-style: normal;
 }
+.button-style:hover{
+    background-color:#FD6E0A;
+    color:white;
+    font-weight:bold;
+}
+input[type="submit"]:hover{
+    background-color:#FD6E0A;
+    color:white;
+    font-weight:bold;
+}
