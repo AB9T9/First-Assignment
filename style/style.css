@@ -5,7 +5,8 @@
 }
 body{
     max-width:1440px;
-    background-color:#F2EDED;
+    /* background-color:#F2EDED; */
+    background-color:#f5f8ff;
 }
 header{
     height:600px;
@@ -52,7 +53,7 @@ align-items:center;
   font-optical-sizing: auto;
   font-style: normal;
   text-decoration:none;
-color:white;
+  color:white;
 }
 .banner-section{
     margin-top:140px;
@@ -141,13 +142,15 @@ color:white;
 .user-section{
     max-width:1100px;
     margin:30px auto;
-    background-color:#F2EDED;
+    /* background-color:#F2EDED; */
+    background-color:#f5f8ff;
 }
 .user-container{
     margin:35px 0px;
     display:flex;
     align-items:center;
     justify-content:space-evenly;
+    gap:70px;
 }
 .user-feedback-container{
     display:flex;
@@ -193,12 +196,13 @@ color:white;
     margin:80px auto;
     background-color:white;
     align-items:center;
+    border-radius:14px;
     
 }
 .overview-container img{
     width:740px;
     margin-top:10px;
-    padding:30px 0px;
+    /* padding:30px 0px; */
     border-radius:50px;
 }
 .web-button{
@@ -279,11 +283,15 @@ nav ul{
 }
 .button-style:hover{
     background-color:#FD6E0A;
-    color:white;
     font-weight:bold;
+    transform:scale(1.2);
+    border:1px solid black;
 }
 input[type="submit"]:hover{
     background-color:#FD6E0A;
     color:white;
     font-weight:bold;
+    transform:scale(1.2);
+    border:1px solid black;
+   
 }
